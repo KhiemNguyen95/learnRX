@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'rxSwiftLearn' do
+   
+pod "RxSwift"
+pod "RxCocoa"
+  target 'rxSwiftLearnTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'rxSwiftLearnUITests' do
+    # Pods for testing
+  end
+
+end
