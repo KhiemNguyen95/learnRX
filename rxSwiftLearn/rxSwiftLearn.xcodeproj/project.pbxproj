@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085CD627267A48EA00C23CDC /* RXCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD625267A48EA00C23CDC /* RXCollectionViewCell.swift */; };
+		085CD628267A48EA00C23CDC /* RXCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CD626267A48EA00C23CDC /* RXCollectionViewCell.xib */; };
+		085CD62D267A490F00C23CDC /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD62C267A490F00C23CDC /* CollectionVC.swift */; };
+		085CD633267A505000C23CDC /* RXCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CD631267A505000C23CDC /* RXCollectionVC.swift */; };
+		085CD634267A505000C23CDC /* RXCollectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CD632267A505000C23CDC /* RXCollectionVC.xib */; };
 		08884F2F2490CAB900511DDD /* TextFieldChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08884F2D2490CAB900511DDD /* TextFieldChangeVC.swift */; };
 		08884F302490CAB900511DDD /* TextFieldChangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08884F2E2490CAB900511DDD /* TextFieldChangeVC.xib */; };
 		08884F322490CC4400511DDD /* NaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08884F312490CC4400511DDD /* NaviVC.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085CD625267A48EA00C23CDC /* RXCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXCollectionViewCell.swift; sourceTree = "<group>"; };
+		085CD626267A48EA00C23CDC /* RXCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXCollectionViewCell.xib; sourceTree = "<group>"; };
+		085CD62C267A490F00C23CDC /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		085CD631267A505000C23CDC /* RXCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXCollectionVC.swift; sourceTree = "<group>"; };
+		085CD632267A505000C23CDC /* RXCollectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXCollectionVC.xib; sourceTree = "<group>"; };
 		08884F2D2490CAB900511DDD /* TextFieldChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldChangeVC.swift; sourceTree = "<group>"; };
 		08884F2E2490CAB900511DDD /* TextFieldChangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldChangeVC.xib; sourceTree = "<group>"; };
 		08884F312490CC4400511DDD /* NaviVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviVC.swift; sourceTree = "<group>"; };
@@ -105,9 +115,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085CD621267A48D700C23CDC /* Cll */ = {
+			isa = PBXGroup;
+			children = (
+				085CD625267A48EA00C23CDC /* RXCollectionViewCell.swift */,
+				085CD626267A48EA00C23CDC /* RXCollectionViewCell.xib */,
+				085CD62C267A490F00C23CDC /* CollectionVC.swift */,
+				085CD631267A505000C23CDC /* RXCollectionVC.swift */,
+				085CD632267A505000C23CDC /* RXCollectionVC.xib */,
+			);
+			path = Cll;
+			sourceTree = "<group>";
+		};
 		08884F2B2490CA4E00511DDD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				085CD621267A48D700C23CDC /* Cll */,
 				08884F332490CE2800511DDD /* Search */,
 				08884F2C2490CA6500511DDD /* MVVM */,
 				08884F312490CC4400511DDD /* NaviVC.swift */,
@@ -330,10 +353,12 @@
 			files = (
 				08956A37236BEA4700195550 /* LaunchScreen.storyboard in Resources */,
 				08884F302490CAB900511DDD /* TextFieldChangeVC.xib in Resources */,
+				085CD634267A505000C23CDC /* RXCollectionVC.xib in Resources */,
 				08884F372490CE4100511DDD /* SearchVC.xib in Resources */,
 				08956A34236BEA4700195550 /* Assets.xcassets in Resources */,
 				08956A5E236C12FB00195550 /* CityCell.xib in Resources */,
 				08956A32236BEA4500195550 /* Main.storyboard in Resources */,
+				085CD628267A48EA00C23CDC /* RXCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +453,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				08956A2F236BEA4500195550 /* ViewController.swift in Sources */,
+				085CD62D267A490F00C23CDC /* CollectionVC.swift in Sources */,
 				08956A2B236BEA4500195550 /* AppDelegate.swift in Sources */,
 				08884F2F2490CAB900511DDD /* TextFieldChangeVC.swift in Sources */,
 				08956A5D236C12FB00195550 /* CityCell.swift in Sources */,
 				08884F322490CC4400511DDD /* NaviVC.swift in Sources */,
+				085CD633267A505000C23CDC /* RXCollectionVC.swift in Sources */,
 				08956A2D236BEA4500195550 /* SceneDelegate.swift in Sources */,
+				085CD627267A48EA00C23CDC /* RXCollectionViewCell.swift in Sources */,
 				08884F362490CE4100511DDD /* SearchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

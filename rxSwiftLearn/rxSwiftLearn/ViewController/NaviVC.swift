@@ -10,7 +10,7 @@ import UIKit
 
 class NaviVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    var arr: [String] = ["Search", "textFieldChage"]
+    var arr: [String] = ["Search", "textFieldChage", "collection"]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib.init(nibName: "CityCell", bundle: nil), forCellReuseIdentifier: "CityCell")
@@ -37,6 +37,8 @@ extension NaviVC: UITableViewDataSource, UITableViewDelegate
             vc = SearchVC()
         case 1:
             vc = TextFieldChangeVC()
+        case 2:
+            vc = RXCollectionVC()
         default:
             break
         }
